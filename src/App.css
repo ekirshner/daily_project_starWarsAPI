@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+img.App-logo {
+  margin-bottom: 15px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 180px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body {
+  background-image: url("http://www.misucell.com/data/out/12/IMG_531282.png");
+  color: white;
+  background-attachment: fixed;
+}
+
+.thePlanets {
+  border: 1px solid lightblue;
+  width: 400px;
+  text-align: left;
+  padding: 2%;
+  width: 43%;
+  margin: 1%;
+}
+
+.planetSection {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;  
+}
